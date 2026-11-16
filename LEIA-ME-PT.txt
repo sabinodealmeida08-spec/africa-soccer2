@@ -1,0 +1,29 @@
+ÁFRICA SOCCER — PROTÓTIPO v2
+
+O que foi atualizado:
+- Nome e identidade do projeto: ÁFRICA SOCCER.
+- Prioridade editorial: futebol africano.
+- Separadores: Início, África, Europa, América e Ásia.
+- Competições europeias: UEFA Champions League, UEFA Europa League, UEFA Conference League e UEFA Nations League.
+- Competições americanas: CONCACAF Nations League, Copa América e eliminatórias das confederações.
+- Competições africanas e asiáticas estruturadas no protótipo.
+- Futebol sénior masculino na primeira versão. Futebol feminino fica para atualização futura.
+- PWA básica com cache offline.
+
+IMPORTANTE:
+Este protótipo ainda NÃO apresenta resultados reais, calendário real, classificações atualizadas ou dados ao vivo. As competições são categorias de demonstração. A integração com um fornecedor de dados de futebol será uma fase separada. Não apresentar estes cartões como confirmação de cobertura de dados por API.
+
+COMO ATUALIZAR O GITHUB:
+1. Abra o repositório africa-soccer2.
+2. Carregue os ficheiros desta versão na raiz do repositório, substituindo os ficheiros antigos com os mesmos nomes.
+3. Confirme o commit na ramificação principal.
+4. GitHub Pages deverá publicar a atualização automaticamente.
+
+REPOSITÓRIO:
+https://github.com/sabinodealmeida08-spec/africa-soccer2
+
+SITE:
+https://sabinodealmeida08-spec.github.io/africa-soccer2/
+
+NOTA TÉCNICA:
+Os ícones estão na raiz e são referenciados por caminhos relativos. O site foi preparado para GitHub Pages num subcaminho de projeto.

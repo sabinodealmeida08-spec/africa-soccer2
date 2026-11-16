@@ -3,100 +3,36 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#071b2d">
-  <meta name="description" content="ÁFRICA SOCCER — O futebol africano em primeiro lugar. Resultados, competições e seleções.">
-  <title>ÁFRICA SOCCER — O futebol não para</title>
+  <meta name="theme-color" content="#071b2b">
+  <meta name="description" content="ÁFRICA SOCCER — futebol africano e competições internacionais.">
+  <title>ÁFRICA SOCCER</title>
   <link rel="manifest" href="manifest.webmanifest">
-  <link rel="icon" href="icons/icon-192.svg" type="image/svg+xml">
+  <link rel="icon" href="icon-192.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="topbar">
-    <a class="brand" href="#" aria-label="África Soccer início">
-      <span class="brand-mark">AS</span>
-      <span><strong>ÁFRICA <em>SOCCER</em></strong><small>O futebol não para.</small></span>
-    </a>
-    <button class="icon-btn" id="installBtn" hidden>Instalar app</button>
-  </header>
-
-  <main>
-    <section class="hero">
-      <div class="hero-copy">
-        <span class="eyebrow">A CASA DO FUTEBOL AFRICANO</span>
-        <h1>O futebol africano<br><span>em primeiro lugar.</span></h1>
-        <p>Acompanha seleções, clubes e competições de África — e descobre o melhor do futebol mundial.</p>
-        <a class="hero-link" href="#continents">Explorar competições <span>→</span></a>
-      </div>
-      <div class="hero-ball" aria-hidden="true">⚽</div>
-    </section>
-
-    <nav class="tabs" id="continents" aria-label="Regiões">
-      <button class="tab active" data-region="africa">África</button>
-      <button class="tab" data-region="america">América</button>
-      <button class="tab" data-region="europe">Europa</button>
-      <button class="tab" data-region="asia">Ásia</button>
-    </nav>
-
-    <section class="section-head">
-      <div><span class="eyebrow">CENTRO DE FUTEBOL</span><h2 id="regionTitle">África em destaque</h2></div>
-      <span class="demo-pill">Protótipo · dados de demonstração</span>
-    </section>
-
-    <section class="feature-grid">
-      <article class="feature-card primary-card">
-        <div class="card-icon">🏆</div>
-        <div><span class="card-kicker">COMPETIÇÕES</span><h3 id="featuredCompetition">CAF e campeonatos nacionais</h3>
-        <p id="featuredDescription">Girabola, Taça de Angola, CAN e competições africanas de clubes.</p></div>
-      </article>
-      <article class="feature-card">
-        <div class="card-icon">🌍</div>
-        <div><span class="card-kicker">SELEÇÕES</span><h3 id="featuredTeams">As seleções africanas</h3>
-        <p>Segue as equipas nacionais e os seus próximos desafios.</p></div>
-      </article>
-    </section>
-
-    <section class="matches-section">
-      <div class="section-head compact"><div><span class="eyebrow">PAINEL DE JOGOS</span><h2>Jogos em destaque</h2></div><span class="muted">Exemplos visuais</span></div>
-      <div class="match-list" id="matchList">
-        <article class="match-card">
-          <div class="match-meta"><span>ANGOLA · GIRABOLA</span><span class="status">DEMONSTRAÇÃO</span></div>
-          <div class="teams"><strong>Petro de Luanda</strong><b>— : —</b><strong>1.º de Agosto</strong></div>
-          <div class="match-foot">Resultado real ainda não ligado</div>
-        </article>
-        <article class="match-card">
-          <div class="match-meta"><span>CAF · CLUBES</span><span class="status">DEMONSTRAÇÃO</span></div>
-          <div class="teams"><strong>Clube da casa</strong><b>— : —</b><strong>Clube visitante</strong></div>
-          <div class="match-foot">Aguardando integração de dados</div>
-        </article>
-      </div>
-      <p class="notice">Os jogos apresentados são apenas exemplos de interface. Esta versão não consulta resultados reais nem fornece informação desportiva em direto.</p>
-    </section>
-
-    <section class="quick-links">
-      <a href="#competitions"><span>📋</span><b>Competições</b><small>Ver torneios</small></a>
-      <a href="#national-teams"><span>🛡️</span><b>Seleções</b><small>Países e equipas</small></a>
-      <a href="#favourites"><span>⭐</span><b>Favoritos</b><small>Em preparação</small></a>
-    </section>
-
-    <section class="section-head compact" id="competitions"><div><span class="eyebrow">PARA COMEÇAR</span><h2>Competições prioritárias</h2></div></section>
-    <div class="competition-list" id="competitionList">
-      <div class="competition-row"><span class="flag">🇦🇴</span><div><b>Girabola</b><small>Angola · Campeonato nacional</small></div><span class="priority">Prioridade 1</span></div>
-      <div class="competition-row"><span class="flag">🌍</span><div><b>Taça das Nações Africanas</b><small>CAF · Seleções</small></div><span class="priority">Prioridade 1</span></div>
-      <div class="competition-row"><span class="flag">🏆</span><div><b>Liga dos Campeões da CAF</b><small>CAF · Clubes</small></div><span class="priority">Prioridade 1</span></div>
-      <div class="competition-row"><span class="flag">🏆</span><div><b>Taça das Confederações da CAF</b><small>CAF · Clubes</small></div><span class="priority">Prioridade 1</span></div>
-    </div>
-
-    <section class="section-head compact" id="national-teams"><div><span class="eyebrow">IDENTIDADE AFRICANA</span><h2>Seleções em destaque</h2></div></section>
-    <div class="team-chips">
-      <span>🇦🇴 Angola</span><span>🇳🇬 Nigéria</span><span>🇸🇳 Senegal</span><span>🇨🇮 Costa do Marfim</span><span>🇲🇦 Marrocos</span><span>🇪🇬 Egito</span><span>🇨🇲 Camarões</span><span>🇿🇦 África do Sul</span>
-    </div>
-  </main>
-
-  <footer>
-    <div class="footer-brand">ÁFRICA SOCCER</div>
-    <p>O futebol não para.</p>
-    <small>Protótipo inicial · Futebol masculino sénior · Futebol feminino previsto para uma atualização futura.</small>
-  </footer>
-  <script src="app.js"></script>
+<header class="top">
+  <div class="brand"><span class="ball">⚽</span><div><strong>ÁFRICA SOCCER</strong><small>O futebol não para.</small></div></div>
+  <button id="installBtn" class="install" hidden>Instalar app</button>
+</header>
+<nav class="tabs" aria-label="Navegação principal">
+  <button class="tab active" data-view="inicio">Início</button>
+  <button class="tab" data-view="africa">África</button>
+  <button class="tab" data-view="europa">Europa</button>
+  <button class="tab" data-view="america">América</button>
+  <button class="tab" data-view="asia">Ásia</button>
+</nav>
+<main>
+  <section class="hero">
+    <div><span class="eyebrow">FUTEBOL SÉNIOR MASCULINO</span><h1>O futebol africano<br>em primeiro lugar.</h1>
+    <p>Acompanha competições africanas e as grandes provas internacionais num só lugar.</p></div>
+    <div class="hero-ball">⚽</div>
+  </section>
+  <section class="notice"><strong>Protótipo de demonstração</strong><span>Os jogos, resultados e classificações ainda não estão ligados a uma fonte de dados real.</span></section>
+  <section id="content"></section>
+  <section class="bottom-note"><strong>Dados em preparação</strong><p>Os resultados ao vivo serão apresentados apenas depois da integração com um fornecedor de dados desportivos fiável. Nunca serão inventados resultados reais.</p></section>
+</main>
+<footer>© <span id="year"></span> ÁFRICA SOCCER · Futebol sénior masculino</footer>
+<script src="app.js"></script>
 </body>
 </html>
